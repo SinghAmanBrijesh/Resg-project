@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(182, 241, 245);
+            margin: 0px;
+        }
+        
+        .button {
+            background-color: black;
+            color: white;
+            border-radius: 4px;
+        }
+        
+        .but {
+            background-color: black;
+            color: white;
+            border-radius: 4px;
+        }
+        
+        hr {
+            margin-left: 20px;
+            color: gray;
+        }
+        
+        section {
+            margin-left: 20px;
+        }
+        
+        #a {
+            font-size: 30px;
+            margin-top: 0px;
+        }
+        
+        .ab {
+            margin-left: 15px;
+        }
+        
+        .ac {
+            margin-left: 15px;
+        }
+        
+        .ad {
+            margin-left: 15px;
+        }
+        
+        .ae {
+            margin-left: 15px;
+        }
+        
+        .an {
+            margin-left: 15px;
+        }
+        
+        .af {
+            margin-left: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section>
+        <h1 id="a">Registration Form</h1>
+        <form>
+            <div>
+                <h3><b>Enter you details below</b></h3>
+                <ul id="ax">
+                    <li>
+
+                        <input type="email" class="ab" id="email" name="email" value="your_email@gmail.com">
+
+                    </li>
+                    <br>
+                    <li>
+                        <!--<label for="pwd">Password:</label>-->
+                        <input type="password" class="ac" id="pwd" name="pwd" value="Password">
+                    </li>
+                </ul>
+            </div>
+
+            <hr>
+
+            <div>
+                <h3><i>!Type a complex password with 8-20 charecters.</i></h3>
+                <ul>
+                    <li>
+                        <input type="tel" class="ad" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" value="20 Phone Number">
+                    </li>
+                </ul>
+            </div>
+
+            <hr>
+            <div>
+                <h3><b><i>Enter your profession:</i></b></h3>
+                <ul>
+                    <li>
+                        <div class="an">
+                            <input type="radio" id="Student" name="Student" value="Student">
+                            <label for="Student">Student</label>
+                            <input type="radio" id="Teacher" name="Teacher" value="Teacher">
+                            <label for="Teacher">Teacher</label>
+                            <input type="radio" id="Developer" name="Developer" value="Developer">
+                            <label for="Developer">Developer</label>
+
+
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <label for="Choose the stage if you are (student)">Choose the stage if you are (student) :</label>
+                <select id="Choose the stage if you are (student)" name="Choose the stage if you are (student)" size="1" multiple>
+                   <option value="Student">First primary</option>
+                     <option value="Teacher">Second Primary</option>
+      
+    
+    </select>
+            </div>
+            <hr>
+            <div>
+                <ul>
+                    <li><label for="birthday" class="ae">Enter your birth date.</label>
+                        <input type="date" id="birthday" name="birthday">
+                    </li>
+                    <br><br>
+                    <li>
+                        <textarea rows="1" class="af" cols="20" name="Any notes">Any notes</textarea>
+
+                    </li>
+                </ul>
+
+            </div>
+            <hr>
+            <input type="submit" class="button">
+            <input type="reset" class="but">
+            </div>
+
+        </form>
+    </section>
+
+</body>
+
+</html>
